@@ -330,7 +330,18 @@ Total: 2 (UNKNOWN: 0, LOW: 0, MEDIUM: 1, HIGH: 1, CRITICAL: 0)
 │                │                │          │                   │               │ references                                                  │
 │                │                │          │                   │               │ https://avd.aquasec.com/nvd/cve-2021-3572                   │
 └────────────────┴────────────────┴──────────┴───────────────────┴───────────────┴─────────────────────────────────────────────────────────────┘
+
+
+
+
+HADOLINT 
+
+hadi@LAPTOP-ADEE62RQ:/mnt/c/Users/hadij/Downloads/Devops/tp1$ docker run --rm -i hadolint/hadolint < Dockerfile
+-:6 DL3018 warning: Pin versions in apk add. Instead of `apk add <package>` use `apk add <package>=<version>`
+-:6 DL3019 info: Use the `--no-cache` switch to avoid the need to use `--update` and remove `/var/cache/apk/*` when done installing packages
 hadi@LAPTOP-ADEE62RQ:/mnt/c/Users/hadij/Downloads/Devops/tp1$
+
+
 
 
 
